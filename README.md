@@ -25,4 +25,4 @@ This will not teach you the basics for JavaScript. Instead it is supplemental ma
 - Clone the repo (from your github repository)
 - Set upstream remote
 
-The instructions for the first exercise can be found in the folder [ChangeCalculator](https://github.com/mariekauth/ScriptingJune2023/ChangeCalculator)
+The instructions for the first exercise can be found in the folder [ChangeCalculator](https://github.com/mariekauth/ScriptingJune2023/blob/main/ChangeCalculator/ChangeCalculator.md)

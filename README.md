@@ -25,4 +25,27 @@ This will not teach you the basics for JavaScript. Instead it is supplemental ma
 - Clone the repo (from your github repository)
 - Set upstream remote
 
-The instructions for the first exercise can be found in the folder [ChangeCalculator](https://github.com/mariekauth/ScriptingJune2023/blob/main/ChangeCalculator/ChangeCalculator.md)
+The instructions for the first exercise can be found in the folder [change-calculator](https://github.com/mariekauth/ScriptingJune2023/blob/main/change-calculator/ChangeCalculator.md)
+
+## Acceptance Criteria:
+* NOTE: This will be updated. This is changing
+
+	coinCalculator.title = "Change Calculator"
+	coinCalculator.cents = number
+	coinCalculator.cents = integer
+	coinCalculator.cents >= 0
+	coinCalculator.cents <= 99
+
+	coinCalculator.quarters returns correct amount
+	coinCalculator.dimes returns correct amount
+	coinCalculator.nickles returns correct amount
+	coinCalculator.pennies returns correct amount
+
+	when centsEntered is not valid
+		- errorMsg returns "Cents must be a valid whole number between 0 and 99"
+		- coinCalculator.cents = 0
+		- coinCalculator.quarters = 0
+		- coinCalculator.dimes = 0
+		- coinCalculator.nickles = 0
+		- coinCalculator.pennies = 0
+	

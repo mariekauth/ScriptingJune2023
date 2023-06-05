@@ -20,3 +20,9 @@ This will not teach you the basics for JavaScript. Instead it is supplemental ma
 - [Udemy.com](https://www.udemy.com/) has many tutorials. Maximilian Schwarzmuller often has some great tutorials.
 - [MS Learn - Web Development for Beginners](https://learn.microsoft.com/en-us/training/paths/web-development-101/), MS Learn has free tutorials on a lot of different topics.
 
+## Instructions
+- Fork this repo.
+- Clone the repo (from your github repository)
+- Set upstream remote
+
+The instructions for the first exercise can be found in the folder [ChangeCalculator](https://github.com/mariekauth/ScriptingJune2023/ChangeCalculator)

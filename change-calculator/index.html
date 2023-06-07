@@ -4,32 +4,36 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Change Calculator</title>
-    <link rel="stylesheet" type="text/css" href="default.css" />
+    <link rel="stylesheet" type="text/css" href="change-calculator.css" />
 </head>
 
 <body>
 <div id="content">
     <h1>Change Calculator</h1>
-
-    <label>Enter number of cents (0-99):</label>
-    <input type="text" id="cents" />
-    <input type="button" value="Calculate" name="calculate" id="calculate" /><br />
-
-    <label>Quarters:</label>
-    <input type="text" id="quarters" class="disabled" disabled="disabled" /><br />
-					
-    <label>Dimes:</label>
-    <input type="text" id="dimes" class="disabled" disabled="disabled" /><br />
-	
-    <label>Nickels:</label>
-    <input type="text" id="nickels" class="disabled" disabled="disabled" /><br />
-		
-    <label>Pennies:</label>
-    <input type="text" id="pennies" class="disabled" disabled="disabled" /><br />
-					
-    <p>&nbsp;</p>
-
+	<section id="section-cents">
+		<label>Enter number of cents (0-99):</label>
+		<input type="text" id="cents" />
+		<input type="button" value="Calculate" name="calculate" id="calculate" /><br />
+	</section>
+	<hr>
+	<section id="section-quarters">
+		<label>Quarters:</label>
+		<input type="text" id="quarters" class="disabled" disabled="disabled" /><br />
+	</section>
+	<section id="section-dimes">
+		<label>Dimes:</label>
+		<input type="text" id="dimes" class="disabled" disabled="disabled" /><br />
+	</section>
+	<section id="section-nickels">
+		<label>Nickels:</label>
+		<input type="text" id="nickels" class="disabled" disabled="disabled" /><br />
+	</section>
+	<section id="section-pennies">
+		<label>Pennies:</label>
+		<input type="text" id="pennies" class="disabled" disabled="disabled" /><br />
+	</section>
+	<section id="message"></section>
 </div>
-<script type="text/javascript" src="calculate_coins.js"></script> 
+<script type="text/javascript" src="change-calculator.js"></script> 
 </body>
 </html>

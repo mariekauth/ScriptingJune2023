@@ -1,0 +1,214 @@
+{
+  "id": "bcffe99a-3c39-4bdf-9b83-e33f14812d12",
+  "version": "2.0",
+  "name": "change-calculator",
+  "url": "https://mariekauth.github.io",
+  "tests": [{
+    "id": "ad437f07-be66-4c78-8ef1-8a3fafce08ea",
+    "name": "WhenPageOpens",
+    "commands": [{
+      "id": "baaea3e0-a7a0-43c0-ac61-ee8d239924f3",
+      "comment": "",
+      "command": "open",
+      "target": "/ScriptingJune2023/change-calculator/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c1ee1d2-07b8-471e-8b02-4773f94756fe",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "800x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a32ad69-a21a-4ae7-afd5-91b86ae6a23f",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Change Calculator",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a713fe4c-3926-47e9-98fb-718093e6b16e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#content h1",
+      "targets": [],
+      "value": "Change Calculator"
+    }, {
+      "id": "47b863ef-3711-4dbd-b836-5479c66aac52",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#content section#section-cents",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "00954c57-9f68-4165-8f1b-2a0f7fc098d5",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#content section#section-quarters",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ee7bf0e-1765-45d9-821b-b25bb02ddad3",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#content section#section-dimes",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79f8c245-968a-4825-85a3-b82870b57c59",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#content section#section-nickels",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1132519e-2615-4190-85e5-b941c84cc083",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#content section#section-pennies",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ae0a0bd-289c-4d39-8200-31baf2a19a8c",
+      "comment": "",
+      "command": "verifyEditable",
+      "target": "css=#content section#section-cents input:nth-of-type(1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2281626-5ecb-444d-82a8-4e803c13d465",
+      "comment": "",
+      "command": "verifyValue",
+      "target": "css=#content section#section-cents input:nth-of-type(2)",
+      "targets": [],
+      "value": "Calculate"
+    }, {
+      "id": "737a4650-64dd-41e9-8bbb-2ec3a933424c",
+      "comment": "",
+      "command": "verifyNotEditable",
+      "target": "css=#content section#section-quarters input:nth-of-type(1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "05ab3de2-3a9a-4887-bfdf-37977dd6e455",
+      "comment": "",
+      "command": "verifyNotEditable",
+      "target": "css=#content section#section-dimes input:nth-of-type(1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a934e071-6aa2-4748-8741-849e62fbb2d4",
+      "comment": "",
+      "command": "verifyNotEditable",
+      "target": "css=#content section#section-nickels input:nth-of-type(1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a5a8b368-1cd5-4427-b978-dfdd85d8edae",
+      "comment": "",
+      "command": "verifyNotEditable",
+      "target": "css=#content section#section-pennies input:nth-of-type(1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d84fe848-05ae-41e8-896f-d0941d11f356",
+      "comment": "",
+      "command": "verifyValue",
+      "target": "css=#content section#section-quarters input:nth-of-type(1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b2f60d78-f8ee-4628-87fa-596da4b794e1",
+      "comment": "",
+      "command": "verifyValue",
+      "target": "css=#content section#section-dimes input:nth-of-type(1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "615a20c7-31de-4c83-9b46-d67b017568d0",
+      "comment": "",
+      "command": "verifyValue",
+      "target": "css=#content section#section-nickels input:nth-of-type(1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b004ac1a-f2ea-4ba5-ae19-a2315df030c4",
+      "comment": "",
+      "command": "verifyValue",
+      "target": "css=#content section#section-pennies input:nth-of-type(1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fcc70c43-450c-45fa-b82b-2224df055b28",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#message",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a5fe750b-b2f7-4253-bd65-d7490cd7eb6f",
+      "comment": "",
+      "command": "verifyElementNotPresent",
+      "target": "css=.errorMessage",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb2eb0de-19b4-49c3-8f10-eacd9cb91e09",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "bdb9c07c-1d46-4d7a-92a1-1c32218e762b",
+    "name": "WhenClickedBeforeImplemented",
+    "commands": [{
+      "id": "af43c643-c39c-49c3-b2f4-edf108d16235",
+      "comment": "",
+      "command": "open",
+      "target": "/ScriptingJune2023/change-calculator/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7be21941-6e91-4ee4-96d6-f9c716ccddb5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "800x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a05c203d-501c-4497-abfc-9a11292e264e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#content section#section-cents input:nth-of-type(2)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d1818abd-ff7b-4fc0-be6b-84daac8f40bd",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.errorMessage",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "52512f52-ff24-42ec-9da0-31fd8a862cea",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c9ce85ca-82dd-4950-975a-9c6d5cc178fe",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ad437f07-be66-4c78-8ef1-8a3fafce08ea"]
+  }],
+  "urls": ["http://dev.mk/ScriptingJune2023", "http://dev.mk/"],
+  "plugins": []
+}
